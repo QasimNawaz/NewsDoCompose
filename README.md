@@ -3,15 +3,15 @@ This is a sample Android app built using Clean Architecture, Jetpack Compose, Hi
 
 # Screenshots
 
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/94b02e5c-4154-42a9-94d3-28d9e6c4997e" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/2da87f8d-4859-485c-83f2-4235e657546d" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/c8d9e048-5b3d-4661-9323-e9cc3c1d0d8a" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/e19c3d37-2413-4915-ba13-6bda1fc0e5e7" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/898792d5-c7ac-40b4-a81a-34a32b4f337b" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/3d541801-bb1c-4d49-860a-4e9a4a2d7f79" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/1e83d042-7a5b-4e44-a9f2-d1c24952f405" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/25590336-6da3-4347-a6f0-4c61a3dd724e" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/805f14b0-8324-48a4-be08-01029857c90d" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/ef84aaed-eabc-49e7-a445-5f9cb89775ec" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/ca928e08-c0d9-476a-8198-738f9f70a64b" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/c51e247c-6809-4227-9266-0700a2229809" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/cb3a900f-86d1-4ddb-958f-027856c12a70" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/4ddbdefe-8873-4997-b3b1-decf200839e8" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/f0014798-5cda-4ff5-a09f-5aad3be5f2a1" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/0e1356b4-36d0-4a23-a7d0-c353324eb337" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/bb272180-c686-4543-a0e7-46443e2d96ee" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/5493027e-12dc-4351-a556-6b7fd0c619ad" alt="Image" width="100" height="200">
 
 # Features
 
@@ -52,4 +52,4 @@ The app follows the Clean Architecture principles, which consists of three main 
 Contributions to the project are welcome! If you find any issues or have suggestions for improvements, please feel free to create a pull request or open an issue.
 
 # Credits
-This app was built by Qasim Nawaz as a sample project for learning Clean Architecture, Jetpack Compose, Hilt, and Room Database. The app uses data from **[TheNewsAPI](https://www.thenewsapi.com/).
+This app was built by Qasim Nawaz as a sample project for learning Clean Architecture, Jetpack Compose, Hilt, and Room Database. The app uses data from [TheNewsAPI](https://www.thenewsapi.com/).
