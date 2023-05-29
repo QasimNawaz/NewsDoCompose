@@ -3,15 +3,15 @@ This is a sample Android app built using Clean Architecture, Jetpack Compose, Hi
 
 # Screenshots
 
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/ef84aaed-eabc-49e7-a445-5f9cb89775ec" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/ca928e08-c0d9-476a-8198-738f9f70a64b" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/c51e247c-6809-4227-9266-0700a2229809" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/cb3a900f-86d1-4ddb-958f-027856c12a70" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/4ddbdefe-8873-4997-b3b1-decf200839e8" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/f0014798-5cda-4ff5-a09f-5aad3be5f2a1" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/0e1356b4-36d0-4a23-a7d0-c353324eb337" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/bb272180-c686-4543-a0e7-46443e2d96ee" alt="Image" width="100" height="200">
-<img src="https://github.com/QasimNawaz/NewsDoCompose/assets/16431165/5493027e-12dc-4351-a556-6b7fd0c619ad" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/f28aab04-187b-42ce-9c25-c47cac3ab5f3" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/d8a32483-d0f4-454a-a0f4-7ef5e3603a00" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/6609221f-5cb9-4412-820d-886d9c5373a9" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/a9bf6fa3-bc51-4d98-bb64-00dca61bc70a" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/2c36da26-1e4f-49e4-a561-128eaaab4dd9" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/f83fba71-53fa-437d-a1b1-c6b11e834ee8" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/79d16129-0b40-454e-9174-763a306b779f" alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/2a923507-fd90-4fdd-ac95-c3f8ab5dd87b " alt="Image" width="100" height="200">
+<img src="https://github.com/QasimNawaz/NewDoCompose/assets/16431165/61fc0db3-6a2a-4421-ab48-9e8689dd879f" alt="Image" width="100" height="200">
 
 # Features
 
