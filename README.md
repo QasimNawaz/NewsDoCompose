@@ -45,7 +45,7 @@ The app follows the Clean Architecture principles, which consists of three main 
 
 1. Clone this repository: `git clone https://github.com/QasimNawaz/NewsDoCompose.git`
 2. Obtain an API key from [TheNewsAPI](https://www.thenewsapi.com/).
-3. Add your API key to the `local.properties` file: `news_api_key=YOUR_API_KEY_HERE`
+3. Add your API key to the `local.properties` file: `API_KEY=YOUR_API_KEY_HERE`
 5. Open the project in Android Studio and run the app.
 
 # Contributions
