@@ -1,0 +1,44 @@
+{
+  "name": "ui_uii_whatshot",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "eNgvzfTdWO9YmlDJd9VnvE",
+    "node": "102:564",
+    "version": "3426943603",
+    "component-id": "6429a078a5f9501c2499e072b92b1b6caea43130"
+  },
+  "default": "UI / UII_Whatshot",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      }
+    ],
+    "modes": {
+      "UI / UII_Whatshot": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "clip-content": "false"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "UI / UII_Whatshot",
+      "size": {
+        "width": 26.0,
+        "height": 49.75860595703125
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

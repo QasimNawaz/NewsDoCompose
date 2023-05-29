@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsDoCompose</string>
+    <string name="icn_search_clear_content_description">Clear Search</string>
+    <string name="icn_search_back_content_description">Exit Search View</string>
+</resources>
