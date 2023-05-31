@@ -38,7 +38,7 @@ fun NewsDoComposeLabelledCheckBox(
                 },
                 colors = CheckboxDefaults.colors(
                     checkedColor = NewsDoComposeTheme.colors.primary,
-                    uncheckedColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+                    uncheckedColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
                     checkmarkColor = Color.White
                 )
             )
@@ -47,7 +47,7 @@ fun NewsDoComposeLabelledCheckBox(
         Spacer(modifier = Modifier.size(6.dp))
         Text(
             text = label,
-            color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+            color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
             fontSize = 12.sp,
         )
     }

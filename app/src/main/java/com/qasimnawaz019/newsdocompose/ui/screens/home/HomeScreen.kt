@@ -41,19 +41,19 @@ fun HomeScreen(
     val pagerState = rememberPagerState()
     val coroutineScope = rememberCoroutineScope()
     Scaffold(
-        backgroundColor = NewsDoComposeTheme.colors.uiBackground, modifier = Modifier.fillMaxSize()
+        backgroundColor = NewsDoComposeTheme.colors.surface, modifier = Modifier.fillMaxSize()
     ) { innerPadding ->
         Column(Modifier.padding(innerPadding)) {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 6.dp, horizontal = 2.dp)
-                    .background(color = NewsDoComposeTheme.colors.uiBackground),
+                    .background(color = NewsDoComposeTheme.colors.surface),
             ) {
                 // Tabs
                 ScrollableTabRow(
                     modifier = Modifier.height(35.dp),
-                    backgroundColor = NewsDoComposeTheme.colors.uiBackground,
+                    backgroundColor = NewsDoComposeTheme.colors.surface,
                     selectedTabIndex = pagerState.currentPage,
                     divider = {},
                     indicator = {
@@ -88,7 +88,7 @@ fun TabItem(coroutineScope: CoroutineScope, pagerState: PagerState, index: Int, 
         .clip(RoundedCornerShape(50))
         .background(
             brush = Brush.horizontalGradient(
-                colors = NewsDoComposeTheme.colors.gradient2_3
+                colors = NewsDoComposeTheme.colors.tabGradient
             )
         )
     else Modifier,
@@ -99,7 +99,7 @@ fun TabItem(coroutineScope: CoroutineScope, pagerState: PagerState, index: Int, 
                 text = topic,
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,
-                color = if (selected) Color.White else NewsDoComposeTheme.colors.textSecondary
+                color = if (selected) Color.White else NewsDoComposeTheme.colors.textPrimary
             )
         })
 }

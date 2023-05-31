@@ -65,7 +65,7 @@ fun ProfileScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(NewsDoComposeTheme.colors.uiBackground),
+            .background(NewsDoComposeTheme.colors.surface),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -81,14 +81,14 @@ fun ProfileScreen() {
             text = "Qasim Nawaz",
             fontSize = MaterialTheme.typography.h3.fontSize,
             fontWeight = FontWeight.Bold,
-            color = NewsDoComposeTheme.colors.textSecondary
+            color = NewsDoComposeTheme.colors.textPrimary
         )
         Spacer(modifier = Modifier.height(10.dp))
         Text(
             text = "Android Developer",
             fontSize = MaterialTheme.typography.h6.fontSize,
             fontWeight = FontWeight.Bold,
-            color = NewsDoComposeTheme.colors.textSecondary
+            color = NewsDoComposeTheme.colors.textPrimary
         )
         Spacer(modifier = Modifier.height(10.dp))
         ClickableText(text = githubAnnotatedString, onClick = { offset ->

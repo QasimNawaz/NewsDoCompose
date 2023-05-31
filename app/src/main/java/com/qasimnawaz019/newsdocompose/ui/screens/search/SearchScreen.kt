@@ -36,7 +36,7 @@ fun SearchScreen(
     val intent = remember { Intent(Intent.ACTION_SEND) }
 
     Scaffold(
-        backgroundColor = NewsDoComposeTheme.colors.uiBackground, modifier = Modifier.fillMaxSize()
+        backgroundColor = NewsDoComposeTheme.colors.surface, modifier = Modifier.fillMaxSize()
     ) { innerPadding ->
         SearchBarUI(innerPadding = innerPadding,
             userSearchModelState.news,

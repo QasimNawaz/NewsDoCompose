@@ -51,12 +51,12 @@ fun NewsDoComposeOutlinedTextField(
         singleLine = true,
         colors = TextFieldDefaults.outlinedTextFieldColors(
             focusedBorderColor = NewsDoComposeTheme.colors.primary,
-            unfocusedBorderColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
-            textColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+            unfocusedBorderColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
+            textColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
             focusedLabelColor = NewsDoComposeTheme.colors.primary,
-            unfocusedLabelColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
-            cursorColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
-            trailingIconColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+            unfocusedLabelColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
+            cursorColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
+            trailingIconColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
         )
     )
 }
@@ -100,12 +100,12 @@ fun NewsDoComposeOutlinedTextFieldPassword(
         singleLine = true,
         colors = TextFieldDefaults.outlinedTextFieldColors(
             focusedBorderColor = NewsDoComposeTheme.colors.primary,
-            unfocusedBorderColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
-            textColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+            unfocusedBorderColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
+            textColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
             focusedLabelColor = NewsDoComposeTheme.colors.primary,
-            unfocusedLabelColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
-            cursorColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
-            trailingIconColor = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+            unfocusedLabelColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
+            cursorColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
+            trailingIconColor = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
         )
     )
 }

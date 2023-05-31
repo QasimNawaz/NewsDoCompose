@@ -28,8 +28,8 @@ import kotlin.math.ln
 fun NewsDoComposeSurface(
     modifier: Modifier = Modifier,
     shape: Shape = RectangleShape,
-    color: Color = NewsDoComposeTheme.colors.uiBackground,
-    contentColor: Color = NewsDoComposeTheme.colors.textSecondary,
+    color: Color = NewsDoComposeTheme.colors.surface,
+    contentColor: Color = NewsDoComposeTheme.colors.textPrimary,
     border: BorderStroke? = null,
     elevation: Dp = 0.dp,
     content: @Composable () -> Unit
@@ -52,7 +52,7 @@ fun NewsDoComposeSurface(
 private fun getBackgroundColorForElevation(color: Color, elevation: Dp): Color {
     return if (elevation > 0.dp // && https://issuetracker.google.com/issues/161429530
     // NewsDoComposeTheme.colors.isDark //&&
-    // color == NewsDoComposeTheme.colors.uiBackground
+    // color == NewsDoComposeTheme.colors.surface
     ) {
         color.withElevation(elevation)
     } else {

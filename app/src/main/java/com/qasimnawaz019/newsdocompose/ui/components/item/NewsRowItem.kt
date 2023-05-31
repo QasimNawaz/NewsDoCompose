@@ -126,7 +126,7 @@ fun ArticleActions(
     ) {
         actions.forEach {
             Card(shape = RoundedCornerShape(6.dp),
-                backgroundColor = NewsDoComposeTheme.colors.bottomBarBackground,
+                backgroundColor = NewsDoComposeTheme.colors.primary,
                 onClick = {
                     onActionClick.invoke(it)
                 }) {

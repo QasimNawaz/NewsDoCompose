@@ -110,7 +110,7 @@ fun CountryItem(
     Row(
         modifier = Modifier
             .clickable(onClick = { onCountrySelect(country) })
-            .background(color = if (country.isSelected) NewsDoComposeTheme.colors.primary else NewsDoComposeTheme.colors.uiBackground)
+            .background(color = if (country.isSelected) NewsDoComposeTheme.colors.primary else NewsDoComposeTheme.colors.surface)
             .fillMaxWidth()
             .padding(10.dp)
             .clip(shape = RoundedCornerShape(6.dp)),
@@ -126,7 +126,7 @@ fun CountryItem(
             modifier = Modifier.weight(1f),
             text = country.name,
             fontSize = 18.sp,
-            color = NewsDoComposeTheme.colors.textSecondary
+            color = NewsDoComposeTheme.colors.textPrimary
         )
     }
 }

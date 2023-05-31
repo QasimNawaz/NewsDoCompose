@@ -32,57 +32,99 @@ import androidx.compose.ui.graphics.Color
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 private val LightColorPalette = NewsDoComposeColors(
-    brand = Shadow5,
-    brandSecondary = Ocean3,
-    uiBackground = OrangeWhite,
-    uiBorder = Neutral4,
-    uiFloated = FunctionalGrey,
-    textPrimary = Shadow1,
-    textSecondary = Neutral7,
-    primary = Primary,
-    flashWhite = FlashWhite,
-    textHelp = Neutral6,
-    textInteractive = Neutral0,
-    textLink = Ocean11,
-    iconSecondary = Neutral7,
-    iconInteractive = Neutral0,
-    iconInteractiveInactive = Neutral1,
-    error = FunctionalRed,
+    tabGradient = listOf(GradiantValue1, GradiantValue2),
+    primary = md_theme_light_primary,
+    onPrimary = md_theme_light_onPrimary,
+    secondary = md_theme_light_secondary,
+    onSecondary = md_theme_light_onSecondary,
+    textPrimary = Neutral7,
+    error = md_theme_light_error,
+    onError = md_theme_light_onError,
+    background = md_theme_light_background,
+    onBackground = md_theme_light_onBackground,
+    surface = md_theme_light_surface,
+    onSurface = md_theme_light_onSurface,
     cardBackground = Neutral0,
     cardContent = Neutral6,
     bottomBarBackground = Primary,
     bottomBarItemColor = Primary_20,
-    gradient2_3 = listOf(GradiantValue1, GradiantValue2),
-    tornado1 = listOf(Shadow4, Ocean3),
+    flashWhite = FlashWhite,
     isDark = false
 )
 
 private val DarkColorPalette = NewsDoComposeColors(
-    brand = Shadow1,
-    brandSecondary = Ocean2,
-    uiBackground = CharcoalBlack,
-    uiBorder = Neutral3,
-    uiFloated = FunctionalDarkGrey,
-    textPrimary = Shadow1,
-    textSecondary = Neutral0,
-    primary = Primary,
-    flashWhite = FlashWhite,
-    textHelp = Neutral1,
-    textInteractive = Neutral7,
-    textLink = Ocean2,
-    iconPrimary = Shadow1,
-    iconSecondary = Neutral0,
-    iconInteractive = Neutral7,
-    iconInteractiveInactive = Neutral6,
-    error = FunctionalRedDark,
+    tabGradient = listOf(GradiantValue1, GradiantValue2),
+    primary = md_theme_dark_primary,
+    onPrimary = md_theme_dark_onPrimary,
+    secondary = md_theme_dark_secondary,
+    onSecondary = md_theme_dark_onSecondary,
+    textPrimary = Neutral0,
+    error = md_theme_dark_error,
+    onError = md_theme_dark_onError,
+    background = md_theme_dark_background,
+    onBackground = md_theme_dark_onBackground,
+    surface = md_theme_dark_surface,
+    onSurface = md_theme_dark_onSurface,
     cardBackground = Neutral8,
     cardContent = Neutral0,
     bottomBarBackground = Primary,
     bottomBarItemColor = Primary_20,
-    gradient2_3 = listOf(GradiantValue1, GradiantValue2),
-    tornado1 = listOf(Shadow4, Ocean3),
+    flashWhite = FlashWhite,
     isDark = true
 )
+
+//private val LightColorPalette = NewsDoComposeColors(
+//    brand = Shadow5,
+//    brandSecondary = Ocean3,
+//    uiBackground = OrangeWhite,
+//    uiBorder = Neutral4,
+//    uiFloated = FunctionalGrey,
+//    textPrimary = Shadow1,
+//    textSecondary = Neutral7,
+//    primary = Primary,
+//    flashWhite = FlashWhite,
+//    textHelp = Neutral6,
+//    textInteractive = Neutral0,
+//    textLink = Ocean11,
+//    iconSecondary = Neutral7,
+//    iconInteractive = Neutral0,
+//    iconInteractiveInactive = Neutral1,
+//    error = FunctionalRed,
+//    cardBackground = Neutral0,
+//    cardContent = Neutral6,
+//    bottomBarBackground = Primary,
+//    bottomBarItemColor = Primary_20,
+//    gradient2_3 = listOf(GradiantValue1, GradiantValue2),
+//    tornado1 = listOf(Shadow4, Ocean3),
+//    isDark = false
+//)
+//
+//private val DarkColorPalette = NewsDoComposeColors(
+//    brand = Shadow1,
+//    brandSecondary = Ocean2,
+//    uiBackground = CharcoalBlack,
+//    uiBorder = Neutral3,
+//    uiFloated = FunctionalDarkGrey,
+//    textPrimary = Shadow1,
+//    textSecondary = Neutral0,
+//    primary = Primary,
+//    flashWhite = FlashWhite,
+//    textHelp = Neutral1,
+//    textInteractive = Neutral7,
+//    textLink = Ocean2,
+//    iconPrimary = Shadow1,
+//    iconSecondary = Neutral0,
+//    iconInteractive = Neutral7,
+//    iconInteractiveInactive = Neutral6,
+//    error = FunctionalRedDark,
+//    cardBackground = Neutral8,
+//    cardContent = Neutral0,
+//    bottomBarBackground = Primary,
+//    bottomBarItemColor = Primary_20,
+//    gradient2_3 = listOf(GradiantValue1, GradiantValue2),
+//    tornado1 = listOf(Shadow4, Ocean3),
+//    isDark = true
+//)
 
 @Composable
 fun NewsDoComposeTheme(
@@ -93,7 +135,7 @@ fun NewsDoComposeTheme(
     val sysUiController = rememberSystemUiController()
     SideEffect {
         sysUiController.setSystemBarsColor(
-            color = colors.uiBackground.copy(alpha = AlphaNearOpaque)
+            color = colors.background.copy(alpha = AlphaNearOpaque)
         )
     }
 
@@ -117,71 +159,48 @@ object NewsDoComposeTheme {
  */
 @Stable
 class NewsDoComposeColors(
-    gradient2_3: List<Color>,
-    brand: Color,
-    brandSecondary: Color,
-    uiBackground: Color,
-    uiBorder: Color,
-    uiFloated: Color,
-    textPrimary: Color = brand,
-    textSecondary: Color,
+    tabGradient: List<Color>,
     primary: Color,
-    flashWhite: Color,
-    textHelp: Color,
-    textInteractive: Color,
-    textLink: Color,
-    tornado1: List<Color>,
-    iconPrimary: Color = brand,
-    iconSecondary: Color,
-    iconInteractive: Color,
-    iconInteractiveInactive: Color,
+    onPrimary: Color,
+    secondary: Color,
+    onSecondary: Color,
+    textPrimary: Color,
     error: Color,
-    notificationBadge: Color = error,
+    onError: Color,
+    background: Color,
+    onBackground: Color,
+    surface: Color,
+    onSurface: Color,
     cardBackground: Color,
     cardContent: Color,
     bottomBarBackground: Color,
     bottomBarItemColor: Color,
+    flashWhite: Color,
     isDark: Boolean
 ) {
-    var gradient2_3 by mutableStateOf(gradient2_3)
-        private set
-    var brand by mutableStateOf(brand)
-        private set
-    var brandSecondary by mutableStateOf(brandSecondary)
-        private set
-    var uiBackground by mutableStateOf(uiBackground)
-        private set
-    var uiBorder by mutableStateOf(uiBorder)
-        private set
-    var uiFloated by mutableStateOf(uiFloated)
-        private set
-    var textPrimary by mutableStateOf(textPrimary)
-        private set
-    var textSecondary by mutableStateOf(textSecondary)
+    var tabGradient by mutableStateOf(tabGradient)
         private set
     var primary by mutableStateOf(primary)
         private set
-    var flashWhite by mutableStateOf(flashWhite)
+    var onPrimary by mutableStateOf(onPrimary)
         private set
-    var textHelp by mutableStateOf(textHelp)
+    var secondary by mutableStateOf(secondary)
         private set
-    var textInteractive by mutableStateOf(textInteractive)
+    var onSecondary by mutableStateOf(onSecondary)
         private set
-    var tornado1 by mutableStateOf(tornado1)
-        private set
-    var textLink by mutableStateOf(textLink)
-        private set
-    var iconPrimary by mutableStateOf(iconPrimary)
-        private set
-    var iconSecondary by mutableStateOf(iconSecondary)
-        private set
-    var iconInteractive by mutableStateOf(iconInteractive)
-        private set
-    var iconInteractiveInactive by mutableStateOf(iconInteractiveInactive)
+    var textPrimary by mutableStateOf(textPrimary)
         private set
     var error by mutableStateOf(error)
         private set
-    var notificationBadge by mutableStateOf(notificationBadge)
+    var onError by mutableStateOf(onError)
+        private set
+    var background by mutableStateOf(background)
+        private set
+    var onBackground by mutableStateOf(onBackground)
+        private set
+    var surface by mutableStateOf(surface)
+        private set
+    var onSurface by mutableStateOf(onSurface)
         private set
     var cardBackground by mutableStateOf(cardBackground)
         private set
@@ -191,62 +210,50 @@ class NewsDoComposeColors(
         private set
     var bottomBarItemColor by mutableStateOf(bottomBarItemColor)
         private set
+    var flashWhite by mutableStateOf(flashWhite)
+        private set
     var isDark by mutableStateOf(isDark)
         private set
 
     fun update(other: NewsDoComposeColors) {
-        gradient2_3 = other.gradient2_3
-        brand = other.brand
-        brandSecondary = other.brandSecondary
-        uiBackground = other.uiBackground
-        uiBorder = other.uiBorder
-        uiFloated = other.uiFloated
-        textPrimary = other.textPrimary
-        textSecondary = other.textSecondary
+        tabGradient = other.tabGradient
         primary = other.primary
-        flashWhite = other.flashWhite
-        textHelp = other.textHelp
-        textInteractive = other.textInteractive
-        textLink = other.textLink
-        tornado1 = other.tornado1
-        iconPrimary = other.iconPrimary
-        iconSecondary = other.iconSecondary
-        iconInteractive = other.iconInteractive
-        iconInteractiveInactive = other.iconInteractiveInactive
+        onPrimary = other.onPrimary
+        secondary = other.secondary
+        onSecondary = other.onSecondary
+        textPrimary = other.textPrimary
         error = other.error
-        notificationBadge = other.notificationBadge
+        onError = other.onError
+        background = other.background
+        onBackground = other.onBackground
+        surface = other.surface
+        onSurface = other.onSurface
         cardBackground = other.cardBackground
         cardContent = other.cardContent
         bottomBarBackground = other.bottomBarBackground
         bottomBarItemColor = other.bottomBarItemColor
+        flashWhite = other.flashWhite
         isDark = other.isDark
     }
 
     fun copy(): NewsDoComposeColors = NewsDoComposeColors(
-        gradient2_3 = gradient2_3,
-        brand = brand,
-        brandSecondary = brandSecondary,
-        uiBackground = uiBackground,
-        uiBorder = uiBorder,
-        uiFloated = uiFloated,
-        textPrimary = textPrimary,
-        textSecondary = textSecondary,
+        tabGradient = tabGradient,
         primary = primary,
-        flashWhite = flashWhite,
-        textHelp = textHelp,
-        textInteractive = textInteractive,
-        textLink = textLink,
-        tornado1 = tornado1,
-        iconPrimary = iconPrimary,
-        iconSecondary = iconSecondary,
-        iconInteractive = iconInteractive,
-        iconInteractiveInactive = iconInteractiveInactive,
+        onPrimary = onPrimary,
+        secondary = secondary,
+        onSecondary = onSecondary,
+        textPrimary = textPrimary,
         error = error,
-        notificationBadge = notificationBadge,
+        onError = onError,
+        background = background,
+        onBackground = onBackground,
+        surface = surface,
+        onSurface = onSurface,
         cardBackground = cardBackground,
         cardContent = cardContent,
         bottomBarBackground = bottomBarBackground,
         bottomBarItemColor = bottomBarItemColor,
+        flashWhite = flashWhite,
         isDark = isDark,
     )
 }

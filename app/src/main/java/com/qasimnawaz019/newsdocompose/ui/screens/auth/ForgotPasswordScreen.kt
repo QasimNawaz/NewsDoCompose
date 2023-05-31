@@ -49,7 +49,7 @@ fun ForgotPasswordScreen(navController: NavHostController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = NewsDoComposeTheme.colors.uiBackground)
+            .background(color = NewsDoComposeTheme.colors.surface)
             .padding(30.dp),
         verticalArrangement = Arrangement.SpaceBetween
     ) {
@@ -59,14 +59,14 @@ fun ForgotPasswordScreen(navController: NavHostController) {
                 modifier = Modifier.size(20.dp),
                 painter = painterResource(id = R.drawable.ic_arrow_left),
                 contentDescription = "null",
-                tint = NewsDoComposeTheme.colors.textSecondary
+                tint = NewsDoComposeTheme.colors.textPrimary
             )
             Spacer(modifier = Modifier.size(10.dp))
             Text(
                 text = "Forgot\nPassword?",
                 fontSize = MaterialTheme.typography.h4.fontSize,
                 fontWeight = FontWeight.Bold,
-                color = NewsDoComposeTheme.colors.textSecondary
+                color = NewsDoComposeTheme.colors.textPrimary
             )
             Spacer(modifier = Modifier.size(10.dp))
             Text(
@@ -74,7 +74,7 @@ fun ForgotPasswordScreen(navController: NavHostController) {
                         "address associated with your account.",
                 fontSize = MaterialTheme.typography.body1.fontSize,
                 fontWeight = FontWeight.Light,
-                color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f)
+                color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f)
             )
             Spacer(modifier = Modifier.size(20.dp))
             NewsDoComposeOutlinedTextField(

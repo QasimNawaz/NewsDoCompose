@@ -34,11 +34,11 @@ fun NewsDoComposeScaffold(
     drawerContent: @Composable (ColumnScope.() -> Unit)? = null,
     drawerShape: Shape = MaterialTheme.shapes.large,
     drawerElevation: Dp = DrawerDefaults.Elevation,
-    drawerBackgroundColor: Color = NewsDoComposeTheme.colors.uiBackground,
-    drawerContentColor: Color = NewsDoComposeTheme.colors.textSecondary,
-    drawerScrimColor: Color = NewsDoComposeTheme.colors.uiBorder,
-    backgroundColor: Color = NewsDoComposeTheme.colors.uiBackground,
-    contentColor: Color = NewsDoComposeTheme.colors.textSecondary,
+    drawerBackgroundColor: Color = NewsDoComposeTheme.colors.surface,
+    drawerContentColor: Color = NewsDoComposeTheme.colors.textPrimary,
+    drawerScrimColor: Color = NewsDoComposeTheme.colors.onSurface,
+    backgroundColor: Color = NewsDoComposeTheme.colors.surface,
+    contentColor: Color = NewsDoComposeTheme.colors.textPrimary,
     content: @Composable (PaddingValues) -> Unit
 ) {
     Scaffold(

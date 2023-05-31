@@ -45,7 +45,7 @@ fun SignUpScreen(navController: NavHostController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = NewsDoComposeTheme.colors.uiBackground)
+            .background(color = NewsDoComposeTheme.colors.surface)
             .padding(30.dp),
     ) {
         Spacer(modifier = Modifier.size(20.dp))
@@ -60,7 +60,7 @@ fun SignUpScreen(navController: NavHostController) {
             text = "Signup to get started",
             fontSize = MaterialTheme.typography.body1.fontSize,
             fontWeight = FontWeight.Light,
-            color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f)
+            color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f)
         )
         Spacer(modifier = Modifier.size(20.dp))
         NewsDoComposeOutlinedTextField(
@@ -112,7 +112,7 @@ fun SignUpScreen(navController: NavHostController) {
         Text(
             modifier = Modifier.align(alignment = Alignment.CenterHorizontally),
             text = "or continue with",
-            color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+            color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
             fontSize = 12.sp
         )
         Spacer(modifier = Modifier.size(10.dp))
@@ -144,7 +144,7 @@ fun SignUpScreen(navController: NavHostController) {
         ) {
             Text(
                 text = "Already have an account ? ",
-                color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+                color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
                 fontSize = 12.sp
             )
             Text(

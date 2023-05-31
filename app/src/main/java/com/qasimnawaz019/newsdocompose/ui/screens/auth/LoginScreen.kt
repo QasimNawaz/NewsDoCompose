@@ -45,7 +45,7 @@ fun LoginScreen(navController: NavHostController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = NewsDoComposeTheme.colors.uiBackground)
+            .background(color = NewsDoComposeTheme.colors.surface)
             .padding(30.dp),
     ) {
         Spacer(modifier = Modifier.size(20.dp))
@@ -60,14 +60,14 @@ fun LoginScreen(navController: NavHostController) {
             text = "Again!",
             fontSize = MaterialTheme.typography.h4.fontSize,
             fontWeight = FontWeight.Bold,
-            color = NewsDoComposeTheme.colors.textSecondary
+            color = NewsDoComposeTheme.colors.textPrimary
         )
         Spacer(modifier = Modifier.size(10.dp))
         Text(
             text = "Welcome back you’ve\n" + "been missed",
             fontSize = MaterialTheme.typography.body1.fontSize,
             fontWeight = FontWeight.Light,
-            color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f)
+            color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f)
         )
         Spacer(modifier = Modifier.size(20.dp))
         NewsDoComposeOutlinedTextField(
@@ -133,7 +133,7 @@ fun LoginScreen(navController: NavHostController) {
         Text(
             modifier = Modifier.align(alignment = Alignment.CenterHorizontally),
             text = "or continue with",
-            color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+            color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
             fontSize = 12.sp
         )
         Spacer(modifier = Modifier.size(10.dp))
@@ -167,7 +167,7 @@ fun LoginScreen(navController: NavHostController) {
         ) {
             Text(
                 text = "don't have an account ? ",
-                color = NewsDoComposeTheme.colors.textSecondary.copy(alpha = 0.5f),
+                color = NewsDoComposeTheme.colors.textPrimary.copy(alpha = 0.5f),
                 fontSize = 12.sp
             )
             Text(
